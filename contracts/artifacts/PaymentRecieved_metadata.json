@@ -9,52 +9,42 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "",
+						"name": "_from",
 						"type": "address"
-					}
-				],
-				"name": "balanceRecieved",
-				"outputs": [
+					},
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "_amount",
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getBalance",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "sendMoney",
-				"outputs": [],
-				"stateMutability": "payable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address payable",
-						"name": "_to",
-						"type": "address"
-					}
-				],
-				"name": "wirhdrawAllMoney",
-				"outputs": [],
 				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "amount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "from",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -71,7 +61,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/ExampleMapping2.sol": "ExampleMappingWithdrawls"
+			"contracts/ExampleStruct.sol": "PaymentRecieved"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -85,12 +75,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/ExampleMapping2.sol": {
-			"keccak256": "0x00eb48b399ee430f7d7193560f0ae5be11d656eb7a66ed4730bbd62c92e213c3",
+		"contracts/ExampleStruct.sol": {
+			"keccak256": "0x54b7ee27a89ae9293d9f81934c9b36f93cb79749985a15048d77d9b59bec4fca",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://d735f1bfdb2fa84e8616c64a9ed78657eaec2f28434cb49d5af86522b9a5f795",
-				"dweb:/ipfs/QmdA2fG1wjiZWNxPJwLa6WWySgeYt1kqUPQb6w6mLGXzjc"
+				"bzz-raw://cf2854fc4d7894e1095f8a74e2ff8c7213174cedad21cd5abf3a85658ca5f52c",
+				"dweb:/ipfs/QmRFrn4GU2oAJLs3gwWyjk69qAr2RoK4c5yEEphbVdhDfh"
 			]
 		}
 	},
